@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-01 18:47 UTC",
-  "latest_ts": 1790880419,
-  "latest_iso": "2026-10-01 18:46 UTC",
-  "comparison_ts": 1790272149,
-  "comparison_iso": "2026-09-24 17:49 UTC",
+  "generated_at": "2026-10-02 18:19 UTC",
+  "latest_ts": 1790965148,
+  "latest_iso": "2026-10-02 18:19 UTC",
+  "comparison_ts": 1790358753,
+  "comparison_iso": "2026-09-25 17:52 UTC",
   "comparison_age_days": 7.0,
-  "snapshot_count": 15,
+  "snapshot_count": 16,
   "price_usd": 19,
   "checkout_open": false,
   "payment_link": null,
@@ -13,24 +13,24 @@
   "catalog": [
     {
       "genre": "Games",
-      "apps": 46,
+      "apps": 47,
       "top_free": 0,
-      "top_grossing": 14,
+      "top_grossing": 15,
       "top_paid": 32,
       "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Games"
     },
     {
       "genre": "Entertainment",
-      "apps": 14,
-      "top_free": 8,
-      "top_grossing": 8,
+      "apps": 17,
+      "top_free": 10,
+      "top_grossing": 9,
       "top_paid": 0,
       "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Entertainment"
     },
     {
       "genre": "Productivity",
-      "apps": 13,
-      "top_free": 10,
+      "apps": 11,
+      "top_free": 8,
       "top_grossing": 5,
       "top_paid": 2,
       "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Productivity"
@@ -38,9 +38,9 @@
     {
       "genre": "Photo & Video",
       "apps": 9,
-      "top_free": 5,
-      "top_grossing": 7,
-      "top_paid": 1,
+      "top_free": 4,
+      "top_grossing": 6,
+      "top_paid": 2,
       "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Photo%20%26%20Video"
     },
     {
@@ -84,14 +84,6 @@
       "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Business"
     },
     {
-      "genre": "Navigation",
-      "apps": 4,
-      "top_free": 1,
-      "top_grossing": 1,
-      "top_paid": 2,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Navigation"
-    },
-    {
       "genre": "Utilities",
       "apps": 4,
       "top_free": 3,
@@ -116,20 +108,28 @@
       "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Health%20%26%20Fitness"
     },
     {
+      "genre": "Navigation",
+      "apps": 3,
+      "top_free": 1,
+      "top_grossing": 1,
+      "top_paid": 1,
+      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Navigation"
+    },
+    {
+      "genre": "Food & Drink",
+      "apps": 2,
+      "top_free": 1,
+      "top_grossing": 0,
+      "top_paid": 1,
+      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Food%20%26%20Drink"
+    },
+    {
       "genre": "Graphics & Design",
       "apps": 2,
       "top_free": 1,
       "top_grossing": 0,
       "top_paid": 1,
       "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Graphics%20%26%20Design"
-    },
-    {
-      "genre": "Lifestyle",
-      "apps": 2,
-      "top_free": 0,
-      "top_grossing": 2,
-      "top_paid": 0,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Lifestyle"
     },
     {
       "genre": "Book",
@@ -140,12 +140,12 @@
       "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Book"
     },
     {
-      "genre": "Food & Drink",
+      "genre": "Lifestyle",
       "apps": 1,
       "top_free": 0,
-      "top_grossing": 0,
-      "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Food%20%26%20Drink"
+      "top_grossing": 1,
+      "top_paid": 0,
+      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Lifestyle"
     },
     {
       "genre": "Medical",
@@ -182,7 +182,7 @@
   ],
   "brief": {
     "genre": "Games",
-    "apps": 46,
+    "apps": 47,
     "thin": false,
     "charts": [
       {
@@ -201,66 +201,91 @@
       {
         "id": "topgrossingapplications",
         "label": "Top Grossing",
-        "current_count": 14,
+        "current_count": 15,
         "entered": [
+          {
+            "name": "Clash of Clans",
+            "seller": "Supercell Oy",
+            "rank": 41
+          },
           {
             "name": "DRAGON BALL Z DOKKAN BATTLE",
             "seller": "Bandai Namco Entertainment Inc.",
-            "rank": 36
+            "rank": 47
           },
           {
-            "name": "Pok\u00e9mon TCG Pocket",
-            "seller": "The Pokemon Company",
-            "rank": 39
+            "name": "Township",
+            "seller": "PLR Worldwide Sales Limited",
+            "rank": 49
           }
         ],
         "entered_more": 0,
-        "left": [],
+        "left": [
+          {
+            "name": "Call of Duty\u00ae: Mobile",
+            "seller": "Activision Publishing, Inc.",
+            "rank": 45
+          }
+        ],
         "left_more": 0,
         "improved": [
           {
             "name": "Roblox",
             "seller": "Roblox Corporation",
             "from_rank": 22,
-            "to_rank": 19,
-            "places": 3
-          }
-        ],
-        "declined": [
-          {
-            "name": "Kingshot",
-            "seller": "Century Games Pte. Ltd.",
-            "from_rank": 30,
-            "to_rank": 41,
-            "places": 11
-          },
-          {
-            "name": "Whiteout Survival",
-            "seller": "Century Games Pte. Ltd.",
-            "from_rank": 31,
-            "to_rank": 40,
-            "places": 9
-          },
-          {
-            "name": "Last War:Survival",
-            "seller": "FUNFLY PTE. LTD.",
-            "from_rank": 41,
-            "to_rank": 50,
-            "places": 9
-          },
-          {
-            "name": "Toon Blast",
-            "seller": "Peak Games",
-            "from_rank": 40,
-            "to_rank": 48,
-            "places": 8
+            "to_rank": 15,
+            "places": 7
           },
           {
             "name": "MONOPOLY GO!",
             "seller": "Scopely, Inc.",
-            "from_rank": 9,
+            "from_rank": 10,
+            "to_rank": 9,
+            "places": 1
+          },
+          {
+            "name": "Royal Match",
+            "seller": "Dream Games Dijital Teknolojiler A.S.",
+            "from_rank": 15,
             "to_rank": 14,
+            "places": 1
+          }
+        ],
+        "declined": [
+          {
+            "name": "Last War:Survival",
+            "seller": "FUNFLY PTE. LTD.",
+            "from_rank": 42,
+            "to_rank": 50,
+            "places": 8
+          },
+          {
+            "name": "Gossip Harbor\u00ae: Merge & Story",
+            "seller": "Microfun Limited",
+            "from_rank": 17,
+            "to_rank": 23,
+            "places": 6
+          },
+          {
+            "name": "Last Z: Survival Shooter",
+            "seller": "Omnilojo Pte Ltd",
+            "from_rank": 39,
+            "to_rank": 44,
             "places": 5
+          },
+          {
+            "name": "Whiteout Survival",
+            "seller": "Century Games Pte. Ltd.",
+            "from_rank": 32,
+            "to_rank": 35,
+            "places": 3
+          },
+          {
+            "name": "Pok\u00e9mon GO",
+            "seller": "Scopely Explore, Inc.",
+            "from_rank": 40,
+            "to_rank": 43,
+            "places": 3
           }
         ],
         "unchanged": 1,
@@ -268,38 +293,38 @@
           {
             "name": "MONOPOLY GO!",
             "seller": "Scopely, Inc.",
-            "rank": 14,
+            "rank": 9,
             "price": 0,
-            "rating": 4.79774,
-            "rating_count": 3843837,
-            "velocity": 1332.1
-          },
-          {
-            "name": "Roblox",
-            "seller": "Roblox Corporation",
-            "rank": 19,
-            "price": 0,
-            "rating": 4.51104,
-            "rating_count": 20255035,
-            "velocity": 5307.7
+            "rating": 4.79772,
+            "rating_count": 3844603,
+            "velocity": 766.0
           },
           {
             "name": "Royal Match",
             "seller": "Dream Games Dijital Teknolojiler A.S.",
-            "rank": 20,
+            "rank": 14,
             "price": 0,
-            "rating": 4.69064,
-            "rating_count": 3840213,
-            "velocity": 1731.9
+            "rating": 4.69062,
+            "rating_count": 3841208,
+            "velocity": 995.0
+          },
+          {
+            "name": "Roblox",
+            "seller": "Roblox Corporation",
+            "rank": 15,
+            "price": 0,
+            "rating": 4.51102,
+            "rating_count": 20259150,
+            "velocity": 4115.0
           },
           {
             "name": "Gossip Harbor\u00ae: Merge & Story",
             "seller": "Microfun Limited",
             "rank": 23,
             "price": 0,
-            "rating": 4.62177,
-            "rating_count": 205946,
-            "velocity": 244.6
+            "rating": 4.62179,
+            "rating_count": 206111,
+            "velocity": 165.0
           },
           {
             "name": "Candy Crush Saga",
@@ -307,89 +332,98 @@
             "rank": 24,
             "price": 0,
             "rating": 4.70443,
-            "rating_count": 4015892,
-            "velocity": 834.0
+            "rating_count": 4016474,
+            "velocity": 582.0
           },
           {
             "name": "Royal Kingdom",
             "seller": "Dream Games Dijital Teknolojiler A.S.",
-            "rank": 33,
+            "rank": 31,
             "price": 0,
-            "rating": 4.71175,
-            "rating_count": 1140684,
-            "velocity": 821.2
-          },
-          {
-            "name": "DRAGON BALL Z DOKKAN BATTLE",
-            "seller": "Bandai Namco Entertainment Inc.",
-            "rank": 36,
-            "price": 0,
-            "rating": 4.7816,
-            "rating_count": 251202,
-            "velocity": 76.6
-          },
-          {
-            "name": "Last Z: Survival Shooter",
-            "seller": "Omnilojo Pte Ltd",
-            "rank": 38,
-            "price": 0,
-            "rating": 4.76585,
-            "rating_count": 101254,
-            "velocity": 81.0
-          },
-          {
-            "name": "Pok\u00e9mon TCG Pocket",
-            "seller": "The Pokemon Company",
-            "rank": 39,
-            "price": 0,
-            "rating": 4.79315,
-            "rating_count": 689053,
-            "velocity": null
+            "rating": 4.71183,
+            "rating_count": 1141269,
+            "velocity": 585.0
           },
           {
             "name": "Whiteout Survival",
             "seller": "Century Games Pte. Ltd.",
-            "rank": 40,
+            "rank": 35,
             "price": 0,
-            "rating": 4.59553,
-            "rating_count": 464461,
-            "velocity": 255.4
+            "rating": 4.59544,
+            "rating_count": 464620,
+            "velocity": 159.0
           },
           {
             "name": "Kingshot",
             "seller": "Century Games Pte. Ltd.",
-            "rank": 41,
+            "rank": 36,
             "price": 0,
-            "rating": 4.61232,
-            "rating_count": 226985,
-            "velocity": 213.2
-          },
-          {
-            "name": "Pok\u00e9mon GO",
-            "seller": "Scopely Explore, Inc.",
-            "rank": 42,
-            "price": 0,
-            "rating": 4.00404,
-            "rating_count": 654219,
-            "velocity": 53.0
+            "rating": 4.61225,
+            "rating_count": 227143,
+            "velocity": 158.0
           },
           {
             "name": "Toon Blast",
             "seller": "Peak Games",
-            "rank": 48,
+            "rank": 38,
             "price": 0,
             "rating": 4.71806,
-            "rating_count": 2810146,
-            "velocity": 381.2
+            "rating_count": 2810376,
+            "velocity": 230.0
+          },
+          {
+            "name": "Clash of Clans",
+            "seller": "Supercell Oy",
+            "rank": 41,
+            "price": 0,
+            "rating": 4.75637,
+            "rating_count": 2781182,
+            "velocity": null
+          },
+          {
+            "name": "Pok\u00e9mon GO",
+            "seller": "Scopely Explore, Inc.",
+            "rank": 43,
+            "price": 0,
+            "rating": 4.00398,
+            "rating_count": 654261,
+            "velocity": 42.0
+          },
+          {
+            "name": "Last Z: Survival Shooter",
+            "seller": "Omnilojo Pte Ltd",
+            "rank": 44,
+            "price": 0,
+            "rating": 4.76577,
+            "rating_count": 101299,
+            "velocity": 45.0
+          },
+          {
+            "name": "DRAGON BALL Z DOKKAN BATTLE",
+            "seller": "Bandai Namco Entertainment Inc.",
+            "rank": 47,
+            "price": 0,
+            "rating": 4.78163,
+            "rating_count": 251232,
+            "velocity": 30.0
+          },
+          {
+            "name": "Township",
+            "seller": "PLR Worldwide Sales Limited",
+            "rank": 49,
+            "price": 0,
+            "rating": 4.75035,
+            "rating_count": 2206300,
+            "velocity": 676.2
           },
           {
             "name": "Last War:Survival",
             "seller": "FUNFLY PTE. LTD.",
             "rank": 50,
             "price": 0,
-            "rating": 4.73779,
-            "rating_count": 450704,
-            "velocity": 39.3
+            "rating": 4.7378,
+            "rating_count": 450728,
+            "velocity": 24.0
           }
         ]
       },
@@ -401,134 +435,129 @@
           {
             "name": "Fashion Mall Story",
             "seller": "Kairosoft Co.,Ltd",
-            "rank": 14
-          },
-          {
-            "name": "Papa's Wingeria To Go!",
-            "seller": "Flipline IDS LLC",
-            "rank": 42
-          },
-          {
-            "name": "Papa's Pizzeria To Go!",
-            "seller": "Flipline IDS LLC",
-            "rank": 48
-          },
-          {
-            "name": "TABS Pocket Edition",
-            "seller": "Landfall Games AB (Mobile)",
-            "rank": 49
+            "rank": 17
           },
           {
             "name": "Five Nights at Freddy's 2",
             "seller": "CLICKTEAM LLC USA",
-            "rank": 50
+            "rank": 33
+          },
+          {
+            "name": "Five Nights at Freddy's 4",
+            "seller": "CLICKTEAM LLC USA",
+            "rank": 45
+          },
+          {
+            "name": "TABS Pocket Edition",
+            "seller": "Landfall Games AB (Mobile)",
+            "rank": 47
           }
         ],
         "entered_more": 0,
         "left": [
           {
-            "name": "Dice A Million",
-            "seller": "COUNTLESSNIGHTS SOCIEDAD LIMITADA",
-            "rank": 32
+            "name": "Slots & Daggers",
+            "seller": "Future Friends Games Limited",
+            "rank": 28
           },
           {
-            "name": "Lowriders Comeback: Boulevard",
-            "seller": "Oleh Chernykh",
-            "rank": 36
+            "name": "Kingdom Rush 5: Alliance TD",
+            "seller": "Ironhide S.A.",
+            "rank": 29
           },
           {
-            "name": "Where's My Water?",
-            "seller": "Disney Electronic Content, Inc.",
-            "rank": 42
+            "name": "Purple Place - Classic Games",
+            "seller": "Semyon Popov",
+            "rank": 35
           },
           {
             "name": "Arcadia - Watch Games",
             "seller": "Raffaele D'Amato",
-            "rank": 47
+            "rank": 37
           },
           {
-            "name": "Hitman Sniper",
-            "seller": "Deca Live Operations GmbH",
-            "rank": 48
+            "name": "Dice A Million",
+            "seller": "COUNTLESSNIGHTS SOCIEDAD LIMITADA",
+            "rank": 41
           },
           {
-            "name": "Strategery",
-            "seller": "Alexander Friedman",
+            "name": "Castlevania: SotN",
+            "seller": "Konami Digital Entertainment Co., Ltd.",
             "rank": 49
           }
         ],
         "left_more": 0,
         "improved": [
           {
-            "name": "CloverPit",
-            "seller": "Future Friends Games Limited",
-            "from_rank": 40,
-            "to_rank": 33,
-            "places": 7
-          },
-          {
             "name": "Bloons TD 5",
             "seller": "Ninja Kiwi Limited",
-            "from_rank": 37,
-            "to_rank": 32,
-            "places": 5
-          },
-          {
-            "name": "Red's First Flight",
-            "seller": "Rovio Entertainment Oyj",
-            "from_rank": 12,
-            "to_rank": 8,
-            "places": 4
+            "from_rank": 39,
+            "to_rank": 29,
+            "places": 10
           },
           {
             "name": "Scritchy Scratchy",
             "seller": "Funday Games ApS",
-            "from_rank": 20,
-            "to_rank": 16,
-            "places": 4
+            "from_rank": 21,
+            "to_rank": 13,
+            "places": 8
           },
           {
             "name": "Farming Simulator 26 Mobile",
             "seller": "GIANTS Software GmbH",
-            "from_rank": 38,
-            "to_rank": 34,
-            "places": 4
+            "from_rank": 43,
+            "to_rank": 35,
+            "places": 8
+          },
+          {
+            "name": "Five Nights at Freddy's",
+            "seller": "CLICKTEAM LLC USA",
+            "from_rank": 26,
+            "to_rank": 20,
+            "places": 6
+          },
+          {
+            "name": "Papa's Wingeria To Go!",
+            "seller": "Flipline IDS LLC",
+            "from_rank": 48,
+            "to_rank": 43,
+            "places": 5
           }
         ],
         "declined": [
           {
-            "name": "Purple Place - Classic Games",
-            "seller": "Semyon Popov",
-            "from_rank": 24,
-            "to_rank": 43,
-            "places": 19
-          },
-          {
-            "name": "Slots & Daggers",
-            "seller": "Future Friends Games Limited",
-            "from_rank": 26,
-            "to_rank": 44,
-            "places": 18
-          },
-          {
-            "name": "How Many Dudes?",
-            "seller": "Butterscotch Shenanigans, Inc.",
-            "from_rank": 30,
-            "to_rank": 40,
-            "places": 10
-          },
-          {
             "name": "Incredibox",
             "seller": "SO FAR SO GOOD",
             "from_rank": 19,
-            "to_rank": 28,
-            "places": 9
+            "to_rank": 26,
+            "places": 7
           },
           {
             "name": "Kingdom Rush 6: Genesis TD",
             "seller": "Ironhide S.A.",
-            "from_rank": 4,
-            "to_rank": 6,
+            "from_rank": 2,
+            "to_rank": 7,
+            "places": 5
+          },
+          {
+            "name": "True Skate",
+            "seller": "TRUE AXIS PTY LTD",
+            "from_rank": 46,
+            "to_rank": 49,
+            "places": 3
+          },
+          {
+            "name": "Grand Theft Auto: San Andreas",
+            "seller": "Rockstar Games, Inc.",
+            "from_rank": 20,
+            "to_rank": 22,
+            "places": 2
+          },
+          {
+            "name": "After Inc.",
+            "seller": "Ndemic Creations LTD",
+            "from_rank": 32,
+            "to_rank": 34,
             "places": 2
           }
         ],
@@ -539,221 +568,239 @@
             "seller": "Mojang AB",
             "rank": 1,
             "price": 6.99,
-            "rating": 4.50709,
-            "rating_count": 841257,
-            "velocity": 152.3
+            "rating": 4.5071,
+            "rating_count": 841331,
+            "velocity": 74.0
           },
           {
             "name": "Heads Up!",
             "seller": "Warner Bros. Entertainment",
             "rank": 3,
             "price": 1.99,
-            "rating": 4.77643,
-            "rating_count": 296669,
-            "velocity": 53.0
+            "rating": 4.77642,
+            "rating_count": 296720,
+            "velocity": 51.0
           },
           {
             "name": "Plague Inc.",
             "seller": "Ndemic Creations LTD",
             "rank": 5,
             "price": 0.99,
-            "rating": 4.81311,
-            "rating_count": 167343,
-            "velocity": 16.7
-          },
-          {
-            "name": "Kingdom Rush 6: Genesis TD",
-            "seller": "Ironhide S.A.",
-            "rank": 6,
-            "price": 6.99,
-            "rating": 4.82775,
-            "rating_count": 1736,
-            "velocity": 120.8
+            "rating": 4.8131,
+            "rating_count": 167353,
+            "velocity": 10.0
           },
           {
             "name": "Geometry Dash",
             "seller": "RobTop Games AB",
-            "rank": 7,
+            "rank": 6,
             "price": 3.99,
-            "rating": 4.57104,
-            "rating_count": 273690,
-            "velocity": 83.5
+            "rating": 4.57108,
+            "rating_count": 273761,
+            "velocity": 71.0
           },
           {
-            "name": "Red's First Flight",
-            "seller": "Rovio Entertainment Oyj",
-            "rank": 8,
-            "price": 0.99,
-            "rating": 4.77308,
-            "rating_count": 82339,
-            "velocity": 50.1
+            "name": "Kingdom Rush 6: Genesis TD",
+            "seller": "Ironhide S.A.",
+            "rank": 7,
+            "price": 6.99,
+            "rating": 4.82786,
+            "rating_count": 1795,
+            "velocity": 59.0
           },
           {
             "name": "Bloons TD 6",
             "seller": "Ninja Kiwi Limited",
-            "rank": 9,
+            "rank": 8,
             "price": 6.99,
-            "rating": 4.86066,
-            "rating_count": 347977,
-            "velocity": 41.3
+            "rating": 4.86067,
+            "rating_count": 348013,
+            "velocity": 36.0
           },
           {
-            "name": "Stardew Valley",
-            "seller": "ConcernedApe LLC",
-            "rank": 11,
-            "price": 4.99,
-            "rating": 4.81307,
-            "rating_count": 63589,
-            "velocity": 2.0
+            "name": "Red's First Flight",
+            "seller": "Rovio Entertainment Oyj",
+            "rank": 9,
+            "price": 0.99,
+            "rating": 4.77301,
+            "rating_count": 82383,
+            "velocity": 44.0
           },
           {
             "name": "Balatro",
             "seller": "Playstack Ltd",
-            "rank": 12,
+            "rank": 10,
             "price": 9.99,
-            "rating": 4.9596,
-            "rating_count": 107126,
-            "velocity": 42.2
+            "rating": 4.95957,
+            "rating_count": 107165,
+            "velocity": 39.0
           },
           {
-            "name": "Fashion Mall Story",
-            "seller": "Kairosoft Co.,Ltd",
-            "rank": 14,
-            "price": 6.99,
-            "rating": 0.0,
-            "rating_count": 0,
-            "velocity": null
-          },
-          {
-            "name": "MONOPOLY: The Board Game",
-            "seller": "Marmalade Game Studio Limited",
-            "rank": 15,
+            "name": "Stardew Valley",
+            "seller": "ConcernedApe LLC",
+            "rank": 12,
             "price": 4.99,
-            "rating": 4.65742,
-            "rating_count": 185449,
-            "velocity": 7.9
+            "rating": 4.81302,
+            "rating_count": 63591,
+            "velocity": 2.0
           },
           {
             "name": "Scritchy Scratchy",
             "seller": "Funday Games ApS",
-            "rank": 16,
+            "rank": 13,
             "price": 4.89,
-            "rating": 4.88622,
-            "rating_count": 2663,
-            "velocity": 14.7
+            "rating": 4.88713,
+            "rating_count": 2667,
+            "velocity": 4.0
+          },
+          {
+            "name": "MONOPOLY: The Board Game",
+            "seller": "Marmalade Game Studio Limited",
+            "rank": 14,
+            "price": 4.99,
+            "rating": 4.65743,
+            "rating_count": 185459,
+            "velocity": 10.0
+          },
+          {
+            "name": "Fashion Mall Story",
+            "seller": "Kairosoft Co.,Ltd",
+            "rank": 17,
+            "price": 6.99,
+            "rating": 4.2,
+            "rating_count": 5,
+            "velocity": 5.0
           },
           {
             "name": "Papa's Freezeria To Go!",
             "seller": "Flipline IDS LLC",
-            "rank": 17,
+            "rank": 18,
             "price": 0.99,
             "rating": 4.24477,
             "rating_count": 3154,
             "velocity": 0.0
           },
           {
-            "name": "Slay the Spire",
-            "seller": "Good Games Group, Inc",
+            "name": "Five Nights at Freddy's",
+            "seller": "CLICKTEAM LLC USA",
             "rank": 20,
-            "price": 6.99,
-            "rating": 4.24906,
-            "rating_count": 3224,
-            "velocity": -1.0
+            "price": 2.99,
+            "rating": 4.67763,
+            "rating_count": 23687,
+            "velocity": 3.0
           },
           {
-            "name": "Terraria",
-            "seller": "505 Games (US), Inc.",
-            "rank": 22,
-            "price": 4.99,
-            "rating": 4.45895,
-            "rating_count": 47709,
-            "velocity": 2.0
+            "name": "Slay the Spire",
+            "seller": "Good Games Group, Inc",
+            "rank": 21,
+            "price": 6.99,
+            "rating": 4.24977,
+            "rating_count": 3227,
+            "velocity": 3.0
           },
           {
             "name": "Grand Theft Auto: San Andreas",
             "seller": "Rockstar Games, Inc.",
-            "rank": 23,
+            "rank": 22,
             "price": 6.99,
-            "rating": 4.68347,
-            "rating_count": 115521,
-            "velocity": 21.6
+            "rating": 4.6835,
+            "rating_count": 115538,
+            "velocity": 17.0
+          },
+          {
+            "name": "Terraria",
+            "seller": "505 Games (US), Inc.",
+            "rank": 23,
+            "price": 4.99,
+            "rating": 4.45898,
+            "rating_count": 47712,
+            "velocity": 3.0
           },
           {
             "name": "Pou",
             "seller": "Zakeh Limited",
-            "rank": 24,
+            "rank": 25,
             "price": 1.99,
             "rating": 4.35452,
             "rating_count": 3901,
-            "velocity": 1.0
-          },
-          {
-            "name": "Five Nights at Freddy's",
-            "seller": "CLICKTEAM LLC USA",
-            "rank": 26,
-            "price": 2.99,
-            "rating": 4.67767,
-            "rating_count": 23684,
-            "velocity": 2.0
+            "velocity": 0.0
           },
           {
             "name": "Incredibox",
             "seller": "SO FAR SO GOOD",
-            "rank": 28,
+            "rank": 26,
             "price": 4.99,
-            "rating": 4.89286,
-            "rating_count": 50860,
-            "velocity": 11.8
+            "rating": 4.89289,
+            "rating_count": 50872,
+            "velocity": 12.0
           },
           {
             "name": "Earn to Die 2",
             "seller": "Not Doppler Pty Limited",
-            "rank": 29,
+            "rank": 28,
             "price": 0.29,
-            "rating": 4.65458,
-            "rating_count": 5599,
+            "rating": 4.65463,
+            "rating_count": 5600,
             "velocity": 1.0
           },
           {
             "name": "Bloons TD 5",
             "seller": "Ninja Kiwi Limited",
-            "rank": 32,
+            "rank": 29,
             "price": 2.99,
-            "rating": 4.82225,
+            "rating": 4.82226,
             "rating_count": 98511,
-            "velocity": 10.8
+            "velocity": 0.0
           },
           {
             "name": "CloverPit",
             "seller": "Future Friends Games Limited",
-            "rank": 33,
+            "rank": 31,
             "price": 6.99,
-            "rating": 4.89133,
-            "rating_count": 6083,
-            "velocity": 7.9
+            "rating": 4.89147,
+            "rating_count": 6091,
+            "velocity": 8.0
           },
           {
-            "name": "Farming Simulator 26 Mobile",
-            "seller": "GIANTS Software GmbH",
-            "rank": 34,
-            "price": 7.99,
-            "rating": 3.90418,
-            "rating_count": 407,
+            "name": "Five Nights at Freddy's 2",
+            "seller": "CLICKTEAM LLC USA",
+            "rank": 33,
+            "price": 2.99,
+            "rating": 4.63511,
+            "rating_count": 12267,
             "velocity": 1.0
           },
           {
             "name": "After Inc.",
             "seller": "Ndemic Creations LTD",
-            "rank": 37,
+            "rank": 34,
             "price": 1.99,
-            "rating": 4.81921,
-            "rating_count": 16339,
-            "velocity": 10.8
+            "rating": 4.81926,
+            "rating_count": 16344,
+            "velocity": 5.0
+          },
+          {
+            "name": "Farming Simulator 26 Mobile",
+            "seller": "GIANTS Software GmbH",
+            "rank": 35,
+            "price": 7.99,
+            "rating": 3.90418,
+            "rating_count": 407,
+            "velocity": 0.0
+          },
+          {
+            "name": "Lowriders Comeback: Boulevard",
+            "seller": "Oleh Chernykh",
+            "rank": 36,
+            "price": 1.99,
+            "rating": 4.45593,
+            "rating_count": 1248,
+            "velocity": 0.5
           },
           {
             "name": "How Many Dudes?",
             "seller": "Butterscotch Shenanigans, Inc.",
-            "rank": 40,
+            "rank": 41,
             "price": 9.99,
             "rating": 4.64394,
             "rating_count": 132,
@@ -762,65 +809,47 @@
           {
             "name": "Flick Home Run !",
             "seller": "infinity pocket",
-            "rank": 41,
+            "rank": 42,
             "price": 0.29,
-            "rating": 3.24826,
-            "rating_count": 1434,
-            "velocity": 0.0
+            "rating": 3.24948,
+            "rating_count": 1435,
+            "velocity": 1.0
           },
           {
             "name": "Papa's Wingeria To Go!",
             "seller": "Flipline IDS LLC",
-            "rank": 42,
+            "rank": 43,
             "price": 1.99,
             "rating": 4.44193,
             "rating_count": 353,
             "velocity": 0.0
           },
           {
-            "name": "Purple Place - Classic Games",
-            "seller": "Semyon Popov",
-            "rank": 43,
-            "price": 1.99,
-            "rating": 3.63991,
-            "rating_count": 461,
-            "velocity": 1.0
-          },
-          {
-            "name": "Slots & Daggers",
-            "seller": "Future Friends Games Limited",
-            "rank": 44,
-            "price": 3.99,
-            "rating": 4.84783,
-            "rating_count": 460,
-            "velocity": 11.8
-          },
-          {
-            "name": "Papa's Pizzeria To Go!",
-            "seller": "Flipline IDS LLC",
-            "rank": 48,
-            "price": 0.99,
-            "rating": 4.24118,
-            "rating_count": 340,
-            "velocity": 0.0
+            "name": "Five Nights at Freddy's 4",
+            "seller": "CLICKTEAM LLC USA",
+            "rank": 45,
+            "price": 2.99,
+            "rating": 4.61578,
+            "rating_count": 11759,
+            "velocity": 0.5
           },
           {
             "name": "TABS Pocket Edition",
             "seller": "Landfall Games AB (Mobile)",
-            "rank": 49,
+            "rank": 47,
             "price": 2.49,
             "rating": 4.01513,
             "rating_count": 859,
-            "velocity": null
+            "velocity": 0.0
           },
           {
-            "name": "Five Nights at Freddy's 2",
-            "seller": "CLICKTEAM LLC USA",
-            "rank": 50,
-            "price": 2.99,
-            "rating": 4.63509,
-            "rating_count": 12266,
-            "velocity": 1.0
+            "name": "True Skate",
+            "seller": "TRUE AXIS PTY LTD",
+            "rank": 49,
+            "price": 1.99,
+            "rating": 3.79088,
+            "rating_count": 8971,
+            "velocity": -0.3
           }
         ]
       }
