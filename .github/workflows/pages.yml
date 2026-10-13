@@ -30,4 +30,5 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
+          include-hidden-files: true
       - uses: actions/deploy-pages@v5
