@@ -4,7 +4,7 @@ Audited 2026-09-26. Only items that this operator cannot finish are listed. Disc
 
 ## Needed to collect payment
 
-**Stripe merchant connection.** The Stripe tool in this session returned `needsAuth`, and the authentication prompt timed out. Without it, AppSignal cannot charge, refund, or reconcile profit.
+**Stripe merchant connection.** The Stripe tool in this session returned `needsAuth`, and the authentication prompt timed out. Without it, Chartspur cannot charge, refund, or reconcile profit.
 
 - Blocked action: selling the $19 genre brief and recording real cash, fees, and refunds.
 - Owner action: complete Stripe authentication for the merchant account whose payout account the owner controls. Narrow scope: read payments and create a Payment Link. After it connects, create one Payment Link for a one-time $19 USD price with a required custom field named `Genre`, then set `ops/payments.json` `payment_link` to the `https://buy.stripe.com/...` or `https://checkout.stripe.com/...` URL and set `status` to `connected`.
@@ -22,10 +22,10 @@ The chart refresh is already an unattended GitHub Actions job. Two gaps remain.
 - Owner action: none until Stripe is connected. After that, this operator can add a webhook only if the endpoint fits the existing $0 cap (GitHub is not a reliable public webhook receiver).
 - Fallback: fulfill from the Stripe payment list on the next operator session, using the runbook.
 
-**No AppSignal mailbox.** The connected Gmail tool is a personal mailbox and is not an AppSignal customer channel. It will not be used to send or read customer mail. `myrmitis.com` mail is on Google (`smtp.google.com`). Cloudflare Email Routing for that domain is misconfigured (`mx.foreign`) and was not changed.
+**No Chartspur mailbox.** The connected Gmail tool is a personal mailbox and is not an Chartspur customer channel. It will not be used to send or read customer mail. `myrmitis.com` mail is on Google (`smtp.google.com`). Cloudflare Email Routing for that domain is misconfigured (`mx.foreign`) and was not changed.
 
 - Blocked action: email delivery and inbound support.
-- Owner action, optional for the GitHub-issue path: confirm one mailbox this operator may use for AppSignal, or create `appsignal@` on an existing domain and a sending path that does not replace the Google MX record.
+- Owner action, optional for the GitHub-issue path: confirm one mailbox this operator may use for Chartspur, or create `appsignal@` on an existing domain and a sending path that does not replace the Google MX record.
 - Verification: a test message to that mailbox is visible from an authorized tool without using the personal Gmail account.
 - Cost: $0 if an existing Google mailbox or a free routing address is reused. Required only if customers should not need a GitHub account. Fallback: delivery and support stay on public GitHub issues, and the page says so.
 

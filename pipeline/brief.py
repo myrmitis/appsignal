@@ -354,7 +354,7 @@ def render_page(doc, standalone=False):
         "rank movement against the stored snapshot from at least 7 days earlier when that snapshot exists. "
         "The largest genre is published free on this site. The rank-curve dollar estimates on the home page are not included.</p>"
         "<p>This is not a subscription. Ranks, prices, sellers, and ratings come from Apple's public RSS feeds and iTunes lookup. "
-        "AppSignal is not affiliated with Apple.</p>"
+        "Chartspur is not affiliated with Apple.</p>"
         "<p>Refunds: ask within 7 days of payment for a full refund. A genre with fewer than 3 charted apps is refunded even after 7 days "
         "if that was the genre named on the order. Support is a GitHub issue on myrmitis/appsignal. "
         "Do not send card numbers.</p></section>")
@@ -372,7 +372,7 @@ document.getElementById("genre") && document.getElementById("genre").addEventLis
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AppSignal {esc(title_genre)} chart brief — ${price}</title>
+<title>Chartspur {esc(title_genre)} chart brief — ${price}</title>
 <meta name="description" content="Which US App Store apps in one genre entered, left, or moved on the Top Free, Top Grossing, and Top Paid charts.">
 <link rel="canonical" href="https://myrmitis.github.io/appsignal/brief.html">
 <link rel="stylesheet" href="styles.css">
@@ -394,7 +394,7 @@ document.getElementById("genre") && document.getElementById("genre").addEventLis
 {render_report(doc["brief"], doc)}
 {policy}
 </main>
-<footer><p class="mut">AppSignal · {esc(doc['generated_at'])} · formula {esc(FORMULA)} · not affiliated with Apple or appkittie.</p></footer>
+<footer><p class="mut">Chartspur · {esc(doc['generated_at'])} · formula {esc(FORMULA)} · not affiliated with Apple or appkittie.</p></footer>
 {"" if standalone else script}
 </body>
 </html>
@@ -410,7 +410,7 @@ def atomic_write(path, text):
 
 
 def main(argv=None):
-    p = argparse.ArgumentParser(description="Build the AppSignal genre chart brief")
+    p = argparse.ArgumentParser(description="Build the Chartspur genre chart brief")
     p.add_argument("--db", default=os.path.join(ROOT, "data", "appintel.db"))
     p.add_argument("--payments", default=os.path.join(ROOT, "ops", "payments.json"))
     p.add_argument("--genre")

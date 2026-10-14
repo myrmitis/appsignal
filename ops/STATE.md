@@ -1,4 +1,4 @@
-# AppSignal operating state
+# Chartspur operating state
 
 Updated 2026-09-26 by the business-mandate session. Repository `myrmitis/appsignal` at the revision that adds the genre brief. This file is the handoff. Chat history is not required to continue.
 
@@ -27,7 +27,7 @@ GitHub Actions workflow `refresh` updates Apple charts daily at 13:00 UTC and pu
 ## Runtime after this change
 
 - `refresh` rebuilds `brief.html`, `data/brief.json`, and `ops/summary.json`, then commits them. A push made with the workflow token does not start the Pages workflow, so the job then dispatches `pages.yml`. The 2026-09-26 17:01 UTC refresh committed new charts and the summary issue before that dispatch existed, so the public site stayed on the prior snapshot until the next Pages deploy.
-- `operating-summary` posts or updates the GitHub issue "AppSignal daily operating summary" after `refresh` completes, and at 18:00 UTC if the refresh looks unhealthy. Configured, not yet unattended-tested.
+- `operating-summary` posts or updates the GitHub issue "Chartspur daily operating summary" after `refresh` completes, and at 18:00 UTC if the refresh looks unhealthy. Configured, not yet unattended-tested.
 - Stop the jobs from the GitHub Actions tab on `myrmitis/appsignal`. There is no separate always-on worker.
 
 ## Shared systems checked, not adopted

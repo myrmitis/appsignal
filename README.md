@@ -1,4 +1,4 @@
-# AppSignal
+# Chartspur
 
 iOS chart intelligence prototype: Apple Top Charts ingested daily, enriched with iTunes lookup data, and scored with transparent, labeled estimates.
 

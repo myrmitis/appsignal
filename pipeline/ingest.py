@@ -2,7 +2,7 @@
 import json, time, urllib.request, sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 from db import conn
-UA = {"User-Agent": "AppSignal-demo/1.0"}
+UA = {"User-Agent": "Chartspur-demo/1.0"}
 CHARTS = ["topfreeapplications", "topgrossingapplications", "toppaidapplications"]
 def get(url):
     for attempt in range(2):

@@ -51,7 +51,7 @@ def render_body(summary, day, health):
     return "\n".join([
         f"<!-- appsignal-summary:{day} -->",
         "",
-        f"## AppSignal operating summary {day}",
+        f"## Chartspur operating summary {day}",
         "",
         f"- Cash collected: {money(summary['cash_collected_usd'])}",
         f"- Provisional net operating profit: {money(summary['net_operating_profit_usd'])} ({summary['profit_status']})",
@@ -119,7 +119,7 @@ def write_summary(brief_path, ledger_path, out_path):
 
 
 def main(argv=None):
-    p = argparse.ArgumentParser(description="Write or render the AppSignal operating summary")
+    p = argparse.ArgumentParser(description="Write or render the Chartspur operating summary")
     p.add_argument("--brief", default=os.path.join(ROOT, "data", "brief.json"))
     p.add_argument("--ledger", default=os.path.join(ROOT, "ops", "ledger.json"))
     p.add_argument("--out", default=os.path.join(ROOT, "ops", "summary.json"))
