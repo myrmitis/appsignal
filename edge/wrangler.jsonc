@@ -1,0 +1,11 @@
+{
+  "name": "chartspur-site",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-01",
+  "account_id": "de80edcd32893f7153e5b793ad8317f9",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "chartspur.com", "custom_domain": true },
+    { "pattern": "www.chartspur.com", "custom_domain": true }
+  ]
+}

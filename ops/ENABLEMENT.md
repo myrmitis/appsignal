@@ -25,7 +25,7 @@ The chart refresh is already an unattended GitHub Actions job. Two gaps remain.
 **No Chartspur mailbox.** The connected Gmail tool is a personal mailbox and is not an Chartspur customer channel. It will not be used to send or read customer mail. `myrmitis.com` mail is on Google (`smtp.google.com`). Cloudflare Email Routing for that domain is misconfigured (`mx.foreign`) and was not changed.
 
 - Blocked action: email delivery and inbound support.
-- Owner action, optional for the GitHub-issue path: confirm one mailbox this operator may use for Chartspur, or create `appsignal@` on an existing domain and a sending path that does not replace the Google MX record.
+- Owner action, optional for the GitHub-issue path: confirm one mailbox this operator may use for Chartspur, or create `chartspur@` on an existing domain and a sending path that does not replace the Google MX record.
 - Verification: a test message to that mailbox is visible from an authorized tool without using the personal Gmail account.
 - Cost: $0 if an existing Google mailbox or a free routing address is reused. Required only if customers should not need a GitHub account. Fallback: delivery and support stay on public GitHub issues, and the page says so.
 

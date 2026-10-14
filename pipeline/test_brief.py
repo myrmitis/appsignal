@@ -33,7 +33,7 @@ class BriefTest(unittest.TestCase):
     def test_request_url_encodes_genre(self):
         url = brief.request_url("Photo & Video")
         self.assertIn("Photo%20%26%20Video", url)
-        self.assertTrue(url.startswith("https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title="))
+        self.assertTrue(url.startswith("https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title="))
 
     def test_sample_genre_and_movement(self):
         latest = [

@@ -2,7 +2,7 @@
 
 iOS chart intelligence prototype: Apple Top Charts ingested daily, enriched with iTunes lookup data, and scored with transparent, labeled estimates.
 
-**Live:** https://myrmitis.github.io/appsignal/
+**Live:** https://chartspur.com/
 
 ## Run locally
 
@@ -11,6 +11,16 @@ python3 -m http.server 8903
 ```
 
 Open http://localhost:8903
+
+## Domain
+
+GitHub Pages builds and hosts the site (`pages.yml`) at https://myrmitis.github.io/chartspur/. The Cloudflare Worker in `edge/` serves that build at https://chartspur.com/ and sends `www.chartspur.com` to the apex. The Worker owns the DNS records for both names. Do not set a custom domain on the Pages site: Pages would then redirect back to chartspur.com and make a loop.
+
+Deploy the Worker again only when `edge/` changes:
+
+```sh
+wrangler deploy -c edge/wrangler.jsonc
+```
 
 ## Pipeline
 

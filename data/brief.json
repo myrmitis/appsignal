@@ -17,7 +17,7 @@
       "top_free": 0,
       "top_grossing": 9,
       "top_paid": 34,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Games"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Games"
     },
     {
       "genre": "Entertainment",
@@ -25,7 +25,7 @@
       "top_free": 10,
       "top_grossing": 9,
       "top_paid": 0,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Entertainment"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Entertainment"
     },
     {
       "genre": "Photo & Video",
@@ -33,7 +33,7 @@
       "top_free": 5,
       "top_grossing": 7,
       "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Photo%20%26%20Video"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Photo%20%26%20Video"
     },
     {
       "genre": "Productivity",
@@ -41,7 +41,7 @@
       "top_free": 7,
       "top_grossing": 5,
       "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Productivity"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Productivity"
     },
     {
       "genre": "Shopping",
@@ -49,7 +49,7 @@
       "top_free": 8,
       "top_grossing": 0,
       "top_paid": 0,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Shopping"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Shopping"
     },
     {
       "genre": "Social Networking",
@@ -57,7 +57,7 @@
       "top_free": 5,
       "top_grossing": 5,
       "top_paid": 0,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Social%20Networking"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Social%20Networking"
     },
     {
       "genre": "Music",
@@ -65,7 +65,7 @@
       "top_free": 1,
       "top_grossing": 3,
       "top_paid": 3,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Music"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Music"
     },
     {
       "genre": "Business",
@@ -73,7 +73,7 @@
       "top_free": 2,
       "top_grossing": 1,
       "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Business"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Business"
     },
     {
       "genre": "Lifestyle",
@@ -81,7 +81,7 @@
       "top_free": 1,
       "top_grossing": 2,
       "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Lifestyle"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Lifestyle"
     },
     {
       "genre": "Navigation",
@@ -89,7 +89,7 @@
       "top_free": 2,
       "top_grossing": 1,
       "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Navigation"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Navigation"
     },
     {
       "genre": "Utilities",
@@ -97,7 +97,7 @@
       "top_free": 2,
       "top_grossing": 1,
       "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Utilities"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Utilities"
     },
     {
       "genre": "Education",
@@ -105,7 +105,7 @@
       "top_free": 0,
       "top_grossing": 1,
       "top_paid": 2,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Education"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Education"
     },
     {
       "genre": "Finance",
@@ -113,7 +113,7 @@
       "top_free": 3,
       "top_grossing": 0,
       "top_paid": 0,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Finance"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Finance"
     },
     {
       "genre": "Food & Drink",
@@ -121,7 +121,7 @@
       "top_free": 2,
       "top_grossing": 0,
       "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Food%20%26%20Drink"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Food%20%26%20Drink"
     },
     {
       "genre": "Health & Fitness",
@@ -129,7 +129,7 @@
       "top_free": 0,
       "top_grossing": 2,
       "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Health%20%26%20Fitness"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Health%20%26%20Fitness"
     },
     {
       "genre": "Sports",
@@ -137,7 +137,7 @@
       "top_free": 0,
       "top_grossing": 2,
       "top_paid": 0,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Sports"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Sports"
     },
     {
       "genre": "Book",
@@ -145,7 +145,7 @@
       "top_free": 0,
       "top_grossing": 1,
       "top_paid": 0,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Book"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Book"
     },
     {
       "genre": "Graphics & Design",
@@ -153,7 +153,7 @@
       "top_free": 0,
       "top_grossing": 0,
       "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Graphics%20%26%20Design"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Graphics%20%26%20Design"
     },
     {
       "genre": "Medical",
@@ -161,7 +161,7 @@
       "top_free": 0,
       "top_grossing": 0,
       "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Medical"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Medical"
     },
     {
       "genre": "News",
@@ -169,7 +169,7 @@
       "top_free": 1,
       "top_grossing": 1,
       "top_paid": 0,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20News"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20News"
     },
     {
       "genre": "Travel",
@@ -177,7 +177,7 @@
       "top_free": 1,
       "top_grossing": 0,
       "top_paid": 0,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Travel"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Travel"
     },
     {
       "genre": "Weather",
@@ -185,7 +185,7 @@
       "top_free": 0,
       "top_grossing": 0,
       "top_paid": 1,
-      "request_url": "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Weather"
+      "request_url": "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title=Genre%20brief%20request%3A%20Weather"
     }
   ],
   "brief": {

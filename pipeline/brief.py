@@ -16,7 +16,7 @@ ORDER = {cid: i for i, (cid, _) in enumerate(CHARTS)}
 WEEK = 7 * 86400
 MOVER_LIMIT = 5
 LIST_LIMIT = 15
-REPO_ISSUE = "https://github.com/myrmitis/appsignal/issues/new?template=genre-brief.yml&title="
+REPO_ISSUE = "https://github.com/myrmitis/chartspur/issues/new?template=genre-brief.yml&title="
 FORMULA = "dl_day=20000*(50/rank)^0.7"
 
 
@@ -356,7 +356,7 @@ def render_page(doc, standalone=False):
         "<p>This is not a subscription. Ranks, prices, sellers, and ratings come from Apple's public RSS feeds and iTunes lookup. "
         "Chartspur is not affiliated with Apple.</p>"
         "<p>Refunds: ask within 7 days of payment for a full refund. A genre with fewer than 3 charted apps is refunded even after 7 days "
-        "if that was the genre named on the order. Support is a GitHub issue on myrmitis/appsignal. "
+        "if that was the genre named on the order. Support is a GitHub issue on myrmitis/chartspur. "
         "Do not send card numbers.</p></section>")
     script = """<script>
 document.getElementById("genre") && document.getElementById("genre").addEventListener("change", function () {
@@ -374,7 +374,7 @@ document.getElementById("genre") && document.getElementById("genre").addEventLis
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chartspur {esc(title_genre)} chart brief — ${price}</title>
 <meta name="description" content="Which US App Store apps in one genre entered, left, or moved on the Top Free, Top Grossing, and Top Paid charts.">
-<link rel="canonical" href="https://myrmitis.github.io/appsignal/brief.html">
+<link rel="canonical" href="https://chartspur.com/brief.html">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>

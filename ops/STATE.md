@@ -1,6 +1,6 @@
 # Chartspur operating state
 
-Updated 2026-09-26 by the business-mandate session. Repository `myrmitis/appsignal` at the revision that adds the genre brief. This file is the handoff. Chat history is not required to continue.
+Updated 2026-10-14: the repository is now `myrmitis/chartspur` (renamed from `myrmitis/appsignal`) and the site is at https://chartspur.com/. Earlier sections date from 2026-09-26. This file is the handoff. Chat history is not required to continue.
 
 ## Offer
 
@@ -22,13 +22,13 @@ New discretionary spend authorized in-repo: **none**. This operator's cap is **$
 
 ## What already ran without this session
 
-GitHub Actions workflow `refresh` updates Apple charts daily at 13:00 UTC and pushes to `main`. Successful unattended runs include 2026-09-23, 2026-09-24, and 2026-09-25. Pages deploys `main` to https://myrmitis.github.io/appsignal/. There is no custom domain on that Pages site.
+GitHub Actions workflow `refresh` updates Apple charts daily at 13:00 UTC and pushes to `main`. Successful unattended runs include 2026-09-23, 2026-09-24, and 2026-09-25. Pages deploys `main` to https://myrmitis.github.io/chartspur/. The Cloudflare Worker in `edge/` serves that build at https://chartspur.com/ (see the README).
 
 ## Runtime after this change
 
 - `refresh` rebuilds `brief.html`, `data/brief.json`, and `ops/summary.json`, then commits them. A push made with the workflow token does not start the Pages workflow, so the job then dispatches `pages.yml`. The 2026-09-26 17:01 UTC refresh committed new charts and the summary issue before that dispatch existed, so the public site stayed on the prior snapshot until the next Pages deploy.
 - `operating-summary` posts or updates the GitHub issue "Chartspur daily operating summary" after `refresh` completes, and at 18:00 UTC if the refresh looks unhealthy. Configured, not yet unattended-tested.
-- Stop the jobs from the GitHub Actions tab on `myrmitis/appsignal`. There is no separate always-on worker.
+- Stop the jobs from the GitHub Actions tab on `myrmitis/chartspur`. There is no separate always-on worker.
 
 ## Shared systems checked, not adopted
 
