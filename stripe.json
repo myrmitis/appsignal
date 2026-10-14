@@ -1,0 +1,13 @@
+{
+  "project": "chartspur",
+  "mode": "test",
+  "products": [
+    {
+      "key": "us-genre-chart-brief",
+      "name": "Chartspur US Genre Chart Brief",
+      "price": {"amount": 1900, "currency": "usd"},
+      "payment_link": {"custom_fields": [{"key": "genre", "label": "Genre"}]}
+    }
+  ],
+  "write": {"file": "ops/payments.json", "set": {"payment_link": "link:us-genre-chart-brief", "status": "connected"}}
+}

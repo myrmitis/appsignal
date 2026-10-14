@@ -1,4 +1,4 @@
-"""SQLite store for AppSignal pipeline. stdlib only."""
+"""SQLite store for Chartspur pipeline. stdlib only."""
 import sqlite3, os
 DB = os.path.join(os.path.dirname(__file__), "..", "data", "appintel.db")
 SCHEMA = """
