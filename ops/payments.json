@@ -3,6 +3,6 @@
   "price_usd": 19,
   "currency": "USD",
   "provider": "stripe",
-  "status": "not_connected",
-  "payment_link": null
+  "status": "connected",
+  "payment_link": "https://buy.stripe.com/dRm8wOeSCcpA17d9qFeME03"
 }

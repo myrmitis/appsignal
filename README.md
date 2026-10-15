@@ -36,7 +36,7 @@ python3 pipeline/ingest.py && python3 pipeline/estimate.py
 
 ## Genre brief
 
-`brief.html` is a one-time $19 offer for a single US genre: who entered, left, or moved across Top Free, Top Grossing, and Top Paid since the snapshot at least 7 days earlier. The largest genre is published free. Card checkout is closed until `ops/payments.json` contains a Stripe Payment Link. Estimates stay in a labeled appendix (`data/METHOD.md`). Operating state: `ops/STATE.md`.
+`brief.html` is a one-time $19 offer for a single US genre: who entered, left, or moved across Top Free, Top Grossing, and Top Paid since the snapshot at least 7 days earlier. The largest genre is published free. Card checkout uses the live Stripe Payment Link in `ops/payments.json` (created by `stripe-setup` from `stripe.json`; ids in `stripe.lock.json`). Estimates stay in a labeled appendix (`data/METHOD.md`). Operating state: `ops/STATE.md`.
 
 ## Real vs estimated vs demo
 

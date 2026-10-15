@@ -1,0 +1,13 @@
+{
+  "mode": "live",
+  "products": {
+    "us-genre-chart-brief": {
+      "product": "prod_VRmKShtJfD1gqm",
+      "price": "price_1UQsmCCX4No1cqTQvpvwdrzT"
+    }
+  },
+  "links": {
+    "us-genre-chart-brief": "https://buy.stripe.com/dRm8wOeSCcpA17d9qFeME03"
+  },
+  "webhook": null
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15 17:42 UTC",
+  "generated_at": "2026-10-15 17:55 UTC",
   "latest_ts": 1792086130,
   "latest_iso": "2026-10-15 17:42 UTC",
   "comparison_ts": 1791134678,
@@ -7,8 +7,8 @@
   "comparison_age_days": 11.0,
   "snapshot_count": 25,
   "price_usd": 19,
-  "checkout_open": false,
-  "payment_link": null,
+  "checkout_open": true,
+  "payment_link": "https://buy.stripe.com/dRm8wOeSCcpA17d9qFeME03",
   "sample_genre": "Games",
   "catalog": [
     {
