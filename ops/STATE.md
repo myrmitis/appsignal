@@ -1,6 +1,6 @@
 # Chartspur operating state
 
-Updated 2026-10-14: the repository is now `myrmitis/chartspur` (renamed from `myrmitis/appsignal`) and the site is at https://chartspur.com/. Earlier sections date from 2026-09-26. This file is the handoff. Chat history is not required to continue.
+Updated 2026-10-15: card checkout is open and experiment 001 is running. Updated 2026-10-14: the repository is now `myrmitis/chartspur` (renamed from `myrmitis/appsignal`) and the site is at https://chartspur.com/. Earlier sections date from 2026-09-26. This file is the handoff. Chat history is not required to continue.
 
 ## Offer
 
@@ -10,13 +10,13 @@ Buyer: an indie iOS developer or small studio checking a category before buildin
 
 The largest genre is published free at `brief.html`. The existing chart table on `index.html` stays free. Revenue figures are the rank heuristic in `data/METHOD.md` and sit in a labeled appendix.
 
-Checkout is **closed**. `ops/payments.json` has `payment_link: null`. Nothing on the site charges a card.
+Checkout is **open** since 2026-10-15 (commit 57fd7eb). `ops/payments.json` holds the live Stripe Payment Link. `brief.html` shows the Pay $19 button.
 
-Experiment: `ops/experiments/001-category-brief.json` (blocked until checkout opens; the free page shipping does not start the 14-day clock).
+Experiment: `ops/experiments/001-category-brief.json` is **running**. The 14-day window starts 2026-10-15 and the result is due 2026-10-29.
 
 ## Profit
 
-See `ops/ledger.json`. Provisional net operating profit **$0**. Cash collected **$0**. Paying customers **0**. Retained customers **0**. Outstanding customer obligations **none**. No processor is connected, so this is not a reconciled profit figure. Inherited revenue: no evidence in this repository.
+See `ops/ledger.json`. Provisional net operating profit **$0**. Cash collected **$0**. Paying customers **0**. Retained customers **0**. Outstanding customer obligations **none**. Stripe is connected, but agents cannot read orders yet (owner ticket myrmitis/chartspur#12 asks for a read-only key). This is not a reconciled profit figure. Inherited revenue: no evidence in this repository.
 
 New discretionary spend authorized in-repo: **none**. This operator's cap is **$0** of new discretionary spend (ads, new SaaS, contractors, paid APIs).
 
@@ -42,4 +42,4 @@ GitHub Actions workflow `refresh` updates Apple charts daily at 13:00 UTC and pu
 
 ## Next action
 
-Connect Stripe for this business, create the $19 Payment Link described in `ops/ENABLEMENT.md`, and set `payment_link`. Then set experiment status to running on the day checkout opens.
+Each weekday, check Stripe for paid orders on the Payment Link. For each paid order, deliver the brief and record it per `ops/RUNBOOK.md`. On 2026-10-29, record the experiment 001 result. The weekday check needs the read-only Stripe key from myrmitis/chartspur#12.

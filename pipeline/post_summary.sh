@@ -7,7 +7,7 @@ if [[ "${GITHUB_ACTIONS:-}" != "true" ]]; then
 fi
 cd "$(dirname "$0")/.."
 DAY=$(date -u +%F)
-TITLE="AppSignal daily operating summary"
+TITLE="Chartspur daily operating summary"
 RESULT=$(mktemp)
 RUNF=$(mktemp)
 gh run list --workflow refresh.yml --limit 1 --json conclusion,status,createdAt > "$RUNF"
