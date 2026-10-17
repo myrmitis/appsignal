@@ -1,0 +1,24 @@
+# AGENTS.md — Chartspur
+
+Shared rules live in `~/.agents/AGENTS.md` and load every session. This file
+holds only what is specific to this repo. Start with `README.md`, then
+`ops/STATE.md` and `ops/RUNBOOK.md`.
+
+## Testing — E2E over unit
+
+Follow the shared policy: do not add unit or integration tests on your own,
+and no TDD unless asked. Prove a change by driving the site the way a
+visitor does.
+
+- Web E2E: `python3 -m http.server 8903 & python3 pipeline/verify_ui.py 8903`
+  (Playwright: rows render, detail opens, no console errors). A change to
+  `index.html`, `brief.html`, `app.js` or `styles.css` extends `verify_ui.py`
+  or adds a sibling `pipeline/verify_<flow>.py`; a brief/checkout change walks
+  the real `brief.html` → Stripe Payment Link path in a browser.
+- Pipeline: run it for real — `python3 pipeline/ingest.py && python3
+  pipeline/estimate.py` — and check `data/live.json` and the rendered site.
+- Gate: `.github/workflows/ci.yml` (`python -m unittest discover -s pipeline`
+  plus `verify_ui.py`) stays green. Existing `pipeline/test_*.py` are a
+  contract: never delete, skip, weaken or loosen an assertion to go green.
+- Exception, ask first: pure logic with a clear spec (the estimate formulas
+  in `data/METHOD.md`, brief diffing).
